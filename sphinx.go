@@ -11,7 +11,7 @@ import (
 	"math/big"
 
 	"github.com/aead/chacha20"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/wakiyamap/lnd/chainntnfs"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcutil"

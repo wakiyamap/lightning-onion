@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 
 	"github.com/coreos/bbolt"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/wakiyamap/lnd/chainntnfs"
 )
 
 const (

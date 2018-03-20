@@ -1,5 +1,5 @@
-hash: b61312a18f7859413a3b184845b0d6e3fb27f1c5373b1ba0854dc1c6a133f7d0
-updated: 2018-03-10T18:56:07.245500445-08:00
+hash: 3cf7283ecc6ce66a5ffafd849881288db92de25ae7311b35cecfb8f14ebbdea3
+updated: 2018-03-21T06:07:30.693914113+09:00
 imports:
 - name: github.com/aead/chacha20
   version: d31a916ded42d1640b9d89a26f8abd53cc96790c
@@ -15,12 +15,14 @@ imports:
   version: 4f5275f4ebbf6fe7cb772de987fa96ee674460a7
 - name: github.com/go-errors/errors
   version: 8fa88b06e5974e97fbf9899a7f86a344bfd1f105
+- name: github.com/lightningnetwork/lightning-onion
+  version: 6d4b1353e2835def84ee240f40499464521c6046
 - name: github.com/lightningnetwork/lnd
-  version: 236d53785d1b7dae39207edb6256a96f5b75e858
+  version: 7ea9e7cf4c0523da992e218d022d84f0ec3cc9df
   subpackages:
   - chainntnfs
 - name: github.com/roasbeef/btcd
-  version: e6807bc4dd5ddbb95b4ab163f6dd61e4ad79463a
+  version: 9978b939c33973be19b932fa7b936079bb7ba38d
   subpackages:
   - btcec
   - chaincfg
@@ -31,6 +33,10 @@ imports:
   subpackages:
   - base58
   - bech32
+- name: github.com/wakiyamap/lnd
+  version: 2915f46e9279e9c26acdeaf09b31c88db7d45fa7
+  subpackages:
+  - chainntnfs
 - name: golang.org/x/crypto
   version: 49796115aa4b964c318aad4f3084fdb41e9aa067
   subpackages:
