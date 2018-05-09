@@ -1,5 +1,5 @@
-hash: 5664566daac8dd1951bf21864e3a3c07df2feff84c713dc8db965fb38d4d75bf
-updated: 2018-05-10T03:15:50.216487004+09:00
+hash: b61312a18f7859413a3b184845b0d6e3fb27f1c5373b1ba0854dc1c6a133f7d0
+updated: 2018-03-10T18:56:07.245500445-08:00
 imports:
 - name: github.com/aead/chacha20
   version: d31a916ded42d1640b9d89a26f8abd53cc96790c
@@ -11,18 +11,10 @@ imports:
   version: 53f62d9b43e87a6c56975cf862af7edf33a8d0df
   subpackages:
   - ripemd160
-- name: github.com/coreos/bbolt
-  version: 4f5275f4ebbf6fe7cb772de987fa96ee674460a7
 - name: github.com/go-errors/errors
   version: 8fa88b06e5974e97fbf9899a7f86a344bfd1f105
-- name: github.com/lightningnetwork/lightning-onion
-  version: 6d4b1353e2835def84ee240f40499464521c6046
-- name: github.com/lightningnetwork/lnd
-  version: 7ea9e7cf4c0523da992e218d022d84f0ec3cc9df
-  subpackages:
-  - chainntnfs
 - name: github.com/roasbeef/btcd
-  version: 9978b939c33973be19b932fa7b936079bb7ba38d
+  version: e6807bc4dd5ddbb95b4ab163f6dd61e4ad79463a
   subpackages:
   - btcec
   - chaincfg
@@ -34,7 +26,7 @@ imports:
   - base58
   - bech32
 - name: golang.org/x/crypto
-  version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
+  version: 49796115aa4b964c318aad4f3084fdb41e9aa067
   subpackages:
   - ripemd160
 - name: golang.org/x/sys
