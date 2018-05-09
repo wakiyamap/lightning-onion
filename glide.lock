@@ -1,5 +1,5 @@
-hash: 3cf7283ecc6ce66a5ffafd849881288db92de25ae7311b35cecfb8f14ebbdea3
-updated: 2018-03-21T06:07:30.693914113+09:00
+hash: 5664566daac8dd1951bf21864e3a3c07df2feff84c713dc8db965fb38d4d75bf
+updated: 2018-05-10T03:15:50.216487004+09:00
 imports:
 - name: github.com/aead/chacha20
   version: d31a916ded42d1640b9d89a26f8abd53cc96790c
@@ -33,12 +33,8 @@ imports:
   subpackages:
   - base58
   - bech32
-- name: github.com/wakiyamap/lnd
-  version: 2915f46e9279e9c26acdeaf09b31c88db7d45fa7
-  subpackages:
-  - chainntnfs
 - name: golang.org/x/crypto
-  version: 49796115aa4b964c318aad4f3084fdb41e9aa067
+  version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
   subpackages:
   - ripemd160
 - name: golang.org/x/sys
