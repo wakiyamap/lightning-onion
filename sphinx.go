@@ -10,9 +10,9 @@ import (
 	"math/big"
 
 	"github.com/aead/chacha20"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil"
+	"github.com/wakiyamap/monad/btcec"
+	"github.com/wakiyamap/monad/chaincfg"
+	"github.com/wakiyamap/monautil"
 )
 
 const (
@@ -621,7 +621,7 @@ type ProcessedPacket struct {
 // the onion encryption which the packet is wrapped with.
 type Router struct {
 	nodeID   [addressSize]byte
-	nodeAddr *btcutil.AddressPubKeyHash
+	nodeAddr *monautil.AddressPubKeyHash
 
 	onionKey *btcec.PrivateKey
 
@@ -633,10 +633,10 @@ type Router struct {
 func NewRouter(nodeKey *btcec.PrivateKey, net *chaincfg.Params, log ReplayLog,
 ) *Router {
 	var nodeID [addressSize]byte
-	copy(nodeID[:], btcutil.Hash160(nodeKey.PubKey().SerializeCompressed()))
+	copy(nodeID[:], monautil.Hash160(nodeKey.PubKey().SerializeCompressed()))
 
 	// Safe to ignore the error here, nodeID is 20 bytes.
-	nodeAddr, _ := btcutil.NewAddressPubKeyHash(nodeID[:], net)
+	nodeAddr, _ := monautil.NewAddressPubKeyHash(nodeID[:], net)
 
 	return &Router{
 		nodeID:   nodeID,

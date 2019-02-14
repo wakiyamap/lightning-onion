@@ -7,7 +7,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/wakiyamap/monad/btcec"
 )
 
 // onionEncrypt obfuscates the data with compliance with BOLT#4. As we use a

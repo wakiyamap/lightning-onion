@@ -7,12 +7,12 @@ import:
 - package: github.com/wakiyamap/lnd
   subpackages:
   - chainntnfs
-- package: github.com/btcsuite/btcd
+- package: github.com/wakiyamap/monad
   subpackages:
   - btcec
   - chaincfg
   - wire
-- package: github.com/btcsuite/btcutil
+- package: github.com/wakiyamap/monautil
 - package: golang.org/x/crypto
   subpackages:
   - ripemd160

@@ -1,38 +1,52 @@
-hash: 62344ca1c24e9b8d80522d4ff10d798f03f9dfadb86d4a4687af5e29ab00843e
-updated: 2018-07-29T03:23:21.887269673+09:00
+hash: a71748c979d8c7fcf7ff6e5cc17962437400eb809463817db9b6dc9bda2f3dd7
+updated: 2019-02-15T04:46:11.804312658+09:00
 imports:
 - name: github.com/aead/chacha20
   version: d31a916ded42d1640b9d89a26f8abd53cc96790c
   subpackages:
   - chacha
-- name: github.com/btcsuite/btcd
-  version: bc0944904505aab55e089371a892be2f87883161
+- name: github.com/aead/skein
+  version: 9365ae6e95d294dc113a0b308852f97c916db233
   subpackages:
-  - btcec
-  - chaincfg
-  - chaincfg/chainhash
-  - wire
+  - threefish
+- name: github.com/bitgoin/lyra2rev2
+  version: bae9ad2043bb55facb14c4918e909f88a7d3ed84
+  subpackages:
+  - sha3
 - name: github.com/btcsuite/btclog
   version: 84c8d2346e9fc8c7b947e243b9c24e6df9fd206a
-- name: github.com/btcsuite/btcutil
-  version: d4cc87b860166d00d6b5b9e0d3b3d71d6088d4d4
+- name: github.com/btcsuite/golangcrypto
+  version: 53f62d9b43e87a6c56975cf862af7edf33a8d0df
   subpackages:
-  - base58
-  - bech32
+  - ripemd160
 - name: github.com/coreos/bbolt
   version: 4f5275f4ebbf6fe7cb772de987fa96ee674460a7
+- name: github.com/dchest/blake256
+  version: dee3fe6eb0e98dc774a94fc231f85baf7c29d360
 - name: github.com/go-errors/errors
   version: a6af135bd4e28680facf08a3d206b454abc877a4
 - name: github.com/wakiyamap/lnd
   version: 37f8ddb62797152613ad9a3f2ed8570077e6cd52
   subpackages:
   - chainntnfs
+- name: github.com/wakiyamap/monad
+  version: d338af5689992eeaa33c3d03785075e2ba5201d4
+  subpackages:
+  - btcec
+  - chaincfg
+  - chaincfg/chainhash
+  - wire
+- name: github.com/wakiyamap/monautil
+  version: 650da7231055529d74538a0d76fbf5f06e1ad8e9
+  subpackages:
+  - base58
+  - bech32
 - name: golang.org/x/crypto
   version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
   subpackages:
   - ripemd160
 testImports:
 - name: github.com/davecgh/go-spew
-  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
   subpackages:
   - spew

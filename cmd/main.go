@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	sphinx "github.com/wakiyamap/lightning-onion"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/wakiyamap/monad/btcec"
+	"github.com/wakiyamap/monad/chaincfg"
 )
 
 // main implements a simple command line utility that can be used in order to
